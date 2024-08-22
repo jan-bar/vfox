@@ -1,6 +1,4 @@
 ```shell
-# 下载插件
-wgetp https://github.com/jan-bar/vfox/archive/refs/heads/plugin.zip
-# 解压插件
-7za x -aoa plugin.zip
+wget -e https_proxy=proxy.top:1081 -O plugin.tar.gz https://github.com/jan-bar/vfox/archive/refs/heads/plugin.tar.gz
+tar -xzvf plugin.tar.gz --strip-components 1 --exclude=.gitignore --exclude=readme.md
 ```
