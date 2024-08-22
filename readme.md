@@ -1,4 +1,6 @@
 ```shell
-# 到 .version-fox 目录克隆插件仓库
-git clone --depth 1 -b plugin git@github.com:jan-bar/vfox.git plugin
+# 下载插件
+wgetp https://github.com/jan-bar/vfox/archive/refs/heads/plugin.zip
+# 解压插件
+7za x -aoa plugin.zip
 ```
