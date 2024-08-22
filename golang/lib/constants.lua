@@ -1,0 +1,1 @@
+GOLANG_URL = "https://go.dev/dl/"
