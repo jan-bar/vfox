@@ -227,7 +227,7 @@ function linuxCompile(ctx)
     if status ~= 0 then
         error("git clone failed")
     end
-    local pyenv_build_path = "https_proxy=http://proxy.top:1081 " .. dest_pyenv_path .. "/plugins/python-build/bin/python-build"
+    local pyenv_build_path = "https_proxy=http://proxytop:1081 " .. dest_pyenv_path .. "/plugins/python-build/bin/python-build"
     print("Building python ...")
     status = os.execute(pyenv_build_path .. " " .. version .. " " .. path)
     if status ~= 0 then
