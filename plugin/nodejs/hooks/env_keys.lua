@@ -8,7 +8,10 @@ function PLUGIN:EnvKeys(ctx)
     local version_path = ctx.path
     if RUNTIME.osType == "windows" then
         return {
-            {key="PNPM_HOME",value="D:\\code_project\\ts\\install\\pnpm"},
+            {
+                key = "PNPM_HOME",
+                value = "D:\\code_project\\ts\\install\\pnpm"
+            },
             {
                 key = "PATH",
                 value = version_path
@@ -22,5 +25,4 @@ function PLUGIN:EnvKeys(ctx)
             },
         }
     end
-
 end

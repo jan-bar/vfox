@@ -10,17 +10,9 @@ function PLUGIN:EnvKeys(ctx)
             key = "GOROOT",
             value = mainPath
         },
-        -- {
-        --     key = "GOPATH",
-        --     value = mainPath .. "/packages"
-        -- },
         {
             key = "PATH",
             value = mainPath .. "/bin"
-        },
-        -- {
-        --     key = "PATH",
-        --     value = mainPath .. "/packages/bin"
-        -- }
+        }
     }
 end
